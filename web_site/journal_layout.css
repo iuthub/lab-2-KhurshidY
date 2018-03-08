@@ -1,0 +1,50 @@
+body
+{
+	margin-left: 10%;
+	margin-right: 10%;	
+}
+
+.general
+{
+		border: 10px white solid;
+	background-color: white;
+	
+}
+
+.beginning
+{	background-color: #A8F0F0;
+	text-align: right;
+}
+
+.article1
+{
+	
+    overflow: auto;
+	padding: 10px;
+	margin-top: 10px;
+    background-color: #E8FBFB;
+	border: 4px #C2E9E9 solid;
+		border: 4px #C2E9E9 solid;
+	
+}
+
+.article2
+{
+	overflow: auto;
+	padding: 10px;
+	margin-top: 10px;
+	background-color: #E8FBFB;
+	border: 4px #C2E9E9 solid;
+	
+}
+
+#date
+{
+	border-bottom: 2px blue dashed;
+}
+
+#positioning 
+{
+	float: right;
+}
+
