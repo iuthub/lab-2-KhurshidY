@@ -16,15 +16,24 @@ body
 	text-align: right;
 }
 
+.article_block{
+	width: 81%;
+	float: left;
+}
+
+.row:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
 .article1
 {
-	
     overflow: auto;
 	padding: 10px;
 	margin-top: 10px;
     background-color: #E8FBFB;
 	border: 4px #C2E9E9 solid;
-		border: 4px #C2E9E9 solid;
 	
 }
 
@@ -41,6 +50,7 @@ body
 #date
 {
 	border-bottom: 2px blue dashed;
+
 }
 
 #positioning 
@@ -48,3 +58,13 @@ body
 	float: right;
 }
 
+.addition
+{
+	float: left;
+	overflow: auto;
+	padding: 10px;
+	margin: 10px 5px 5px 5px;
+	background-color: #E8FBFB;
+	border: 4px #7272FF solid;
+	width: 15%;
+}
